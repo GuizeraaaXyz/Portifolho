@@ -135,6 +135,12 @@ h2 {
     font-size: 2.5rem;
 }
 
+.Logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
+}
+
 /* Sobre Section */
 .sobre-content {
     display: flex;
