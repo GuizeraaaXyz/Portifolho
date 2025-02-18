@@ -144,6 +144,7 @@ h2 {
 /* Sobre Section */
 .sobre-content {
     display: flex;
+    text-align: center;
     align-items: center;
     gap: 2rem;
     max-width: 1200px;
