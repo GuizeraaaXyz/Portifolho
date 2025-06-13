@@ -66,6 +66,7 @@ a:hover {
 header {
   background-color: var(--color-bg);
   position: fixed;
+  z-index: 99999999;
   top: 0;
   width: 100%;
   font-family: Arial, sans-serif;
