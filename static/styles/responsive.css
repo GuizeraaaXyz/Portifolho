@@ -1,0 +1,252 @@
+/* ===== RESPONSIVIDADE ===== */
+
+/* Telas pequenas (até 480px) - Smartphones */
+@media (max-width: 480px) {
+  .header-content {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .NavBar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0.5rem 0;
+  }
+
+  .header-number {
+    display: none;
+  }
+
+  .hero {
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .hero-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .about-content {
+    padding: 2rem 1rem;
+  }
+
+  .about-content img {
+    height: 150px;
+  }
+
+  .services-content > div {
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+
+  .depoiments-content ul {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .depoiments-content li {
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .faq-item {
+    width: 100% !important;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .footer-content-left,
+  .footer-content-center,
+  .footer-content-right {
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .social-icons ul {
+    justify-content: center;
+  }
+
+  .NavBar-footer {
+    align-items: left;
+    text-align: left;
+  }
+
+  .depoiments-content li {
+    text-align: left;
+  }
+}
+
+/* Tablets (481px a 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .header-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .services-content > div {
+    width: 100%;
+    max-width: 400px;
+    padding: 3rem 1rem;
+  }
+
+  .depoiments-content ul {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .faq-item {
+    width: 100% !important;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .footer-content-left,
+  .footer-content-center,
+  .footer-content-right {
+    flex: 1 1 200px;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Tablets grandes e pequenos laptops (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-content {
+    padding: 1rem;
+  }
+
+  .NavBar {
+    gap: 15px;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .services-content > div {
+    width: 45%;
+    padding: 3rem 1rem;
+  }
+
+  .depoiments-content li {
+    padding: 2rem;
+  }
+
+  .faq-item {
+    width: 90% !important;
+  }
+}
+
+/* Telas médias (1025px a 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .header-content {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .services-content > div {
+    width: 45%;
+    padding: 3rem 1rem;
+  }
+}
+
+/* Ajustes gerais para telas menores que 768px */
+@media (max-width: 768px) {
+  section {
+    padding: 4rem 1rem;
+  }
+
+  .devplus-tag {
+    font-size: 1.2rem;
+  }
+
+  .faq-question h3 {
+    font-size: 16px;
+  }
+
+  .faq-answer p,
+  .faq-answer ul {
+    font-size: 14px;
+  }
+
+  .services-content > div {
+    padding: 3rem 1rem;
+  }
+}
+
+/* Ajustes para orientação paisagem em dispositivos móveis */
+@media (max-height: 480px) and (orientation: landscape) {
+  .hero {
+    padding-top: 6rem;
+    min-height: auto;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .services-content > div {
+    padding: 3rem 1rem;
+  }
+}
+
+/* Ajustes para telas muito grandes (acima de 1920px) */
+@media (min-width: 1921px) {
+  .content {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+}
+
+/* Ajustes específicos para o menu em telas médias */
+@media (max-width: 900px) {
+  .NavBar {
+    gap: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Correção para o preloader em mobile */
+@media (max-width: 768px) {
+  #preloader .preloader-content h1 {
+    font-size: 1.5rem;
+  }
+}
