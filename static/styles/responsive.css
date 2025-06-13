@@ -60,6 +60,7 @@
   .depoiments-content li {
     margin: 0;
     padding: 2rem;
+    text-align: center;
   }
 
   .faq-item {
@@ -91,6 +92,7 @@
 
   .depoiments-content li {
     text-align: left;
+    text-align: center;
   }
 }
 
@@ -164,6 +166,7 @@
 
   .depoiments-content li {
     padding: 2rem;
+    text-align: center;
   }
 
   .faq-item {
@@ -201,6 +204,10 @@
   .faq-answer p,
   .faq-answer ul {
     font-size: 14px;
+  }
+
+  .faq-answer a {
+    display: none;
   }
 
   .services-content > div {
